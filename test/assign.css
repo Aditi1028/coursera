@@ -1,0 +1,109 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	
+}
+body{
+	background-color: f9b384;
+}
+
+h1 {
+	text-align: center;
+	color: 581c0c;
+	padding-top: 25px;
+	font-size: 80px;
+}
+
+h2{ 
+	font-size: 40px;
+	border: 1px solid black;
+	color: ca5116;
+	padding: 5px;
+	float: right;
+	
+
+}
+.box{
+	background-color: f1e3cb;
+	font-size: 25px;
+	color: 7d5a5a;
+	border: 1px solid black;
+
+}
+p{
+	margin-top: 80px;
+}
+
+
+	
+
+@media(min-width: 992px){
+
+	.box{
+		width: 400px;
+	    height: 400px;
+	    padding: 10px; 
+	}
+	.two{
+		float: right;
+	    margin-left: 30px;
+	    position: relative;
+	    right: 480px;
+	    bottom: 350px;
+	}
+	.one{
+	   position: relative;
+	   margin-left: 30px;
+	   top: 50px;
+    }
+    .three{
+	   position: absolute;
+	   left: 900px;
+	   bottom: 90px;
+	   margin-right: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+	
+	.box{
+		margin-top: 20px;
+		margin-left: 25px;
+		padding: 10px;
+		float: left;
+		margin-right: 20px;
+			
+	}
+	.one{
+		width: 45%;
+		float: left;
+		
+
+	}
+	.two{
+		width: 45%;
+		
+
+	}
+	.three{
+		width: 95%;
+		margin-right: 40px;
+		
+		position: relative;
+		top: 25px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.box{
+		margin-top: 20px;
+		
+		width: 95%;
+
+
+	}
+	
+	
+}
